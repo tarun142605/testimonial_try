@@ -19,7 +19,7 @@ export default function Features(){
                             Quick to setup
                         </h2>
                         <h2 className="text-3xl font-bold text-black mb-4">
-                             A dedicated landing page
+                             A dedicated landing pages 
                         </h2>
                         <p className="text-gray-500 mb-6"> Create a dedicated landing page for your business. Share the page
                         link easily via email, social media, or even SMS. Setup can be done
