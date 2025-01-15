@@ -221,7 +221,7 @@ export default function CourseCreator() {
                         </div>
                     </div>
 
-                    <div id="secon-section">
+                    <div id="second-section">
                         <div className="lg:mx-auto lg:max-w-5xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                             <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-24 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
                                 <div>
@@ -437,18 +437,15 @@ export default function CourseCreator() {
 
                     </h1>
                     <p className="mt-4 text-s text-gray-600 leading-8">Join the leading creators using Testimonial to automate social proof and skyrocket course sales 👇
-
                     </p>
                     <div className="flex justify-center space-x-6 pt-8">
                         <button className="bg-blue-600 text-white py-2 px-6 rounded-lg transition-all duration-300 transform hover:scale-110">COLLECT COURSE TESTIMONIAL</button>
-
                     </div>
                     <div><p className="text-gray-500 text-sm pt-3">7 days free trial, get started today!
 
                     </p></div>
                 </div>
             </div>
-
         </div>
     )
 }

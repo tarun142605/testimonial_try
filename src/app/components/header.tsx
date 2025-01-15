@@ -67,13 +67,13 @@ export default function Header() {
                 Agencies
               </Link>
               <Link
-                href="/customers/ecommerce"
+                href="/customers#ecom"
                 className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-indigo-600"
               >
                 eCommerce & Retail
               </Link>
               <Link
-                href="/customers/course-creators"
+                href="/customers/course-creator"
                 className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-indigo-600"
               >
                 Course Creators
@@ -85,7 +85,7 @@ export default function Header() {
                 B2B Companies
               </Link>
               <Link
-                href="/customers/b2c"
+                href="/customers#consumer"
                 className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-indigo-600"
               >
                 B2C Apps
