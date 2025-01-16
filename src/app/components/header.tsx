@@ -1,19 +1,23 @@
 import Link from "next/link"
 import Image from "next/image"
+import DropDownMain from "./dropDownHeader"
 export default function Header(){
     return(
             <header className="flex item-center justify-between px-6 py-4 shadow-md bg-white">
                 {/* Logo */}
                 <div className="flex items-center space-x-2">
                     <div className=" flex text-2xl font-bold items-center ">
-                        <i className="fas fa-thumbs-up mr-2 text-white bg-indigo-600 rounded-full place-content-center size-10 px-2 "></i> <p className="text-black-600">Testimonial</p>
+                        <i className="fas fa-thumbs-up mr-2 text-white bg-indigo-600 rounded-full place-content-center size-10 px-2 "></i> <a href='/' className="text-black">Testimonial</a>
                     </div>
                 </div>
                 {/*Navigation */}
                 <nav className="md:flex hidden space-x-6 py-2">
-                    <Link href="/customer" className="text-gray-600 hover:text-indigo-600 font-bold">
+                    {/* <Link href="/customer" className="text-gray-600 hover:text-indigo-600 font-bold">
                     Customers
-                    </Link>
+                    </Link> */}
+
+                    <DropDownMain/>
+
                     <Link href="/features" className="text-gray-600 hover:text-indigo-600 font-bold">
                     Features
                     </Link>
